@@ -1,0 +1,256 @@
+html, body {
+	background-image: url("images/bg.png");
+	background-repeat: repeat;
+	color:#111;
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+ul {
+	list-style: :none;
+}
+ #main-nav {
+ 	margin-top:40px;
+ 	position:relative;
+ 	height:80px;
+ 	background:#fff;
+ 	box-shadow: 0 1px 4px 0;
+ }
+ .navBackground {
+ 	background:#15b27e;
+ }
+
+ #main-nav nav {
+ 	position:absolute;
+ 	right:10%;
+ 	top:20px;
+ }
+
+#main-nav nav ul li{
+ 	list-style: :none;
+ 	display:inline;
+ }
+
+ #main-nav nav ul li a {
+ 	text-decoration: none;
+ 	color:black;
+ 	padding: 37px 30px 25px 30px;
+ 	text-transform: uppercase;
+ }
+  #main-nav nav ul li a:hover, #main-nav nav ul li a:focus{
+ 	background:#15b27e;
+ 	color:white;
+
+ }
+ 
+ #banner {
+ 	position:relative;
+ }
+ #banner img {
+ 	width:100%;
+ 	height:500px;
+ 	padding-top:15px;
+ }
+ #banner-container {
+ 	position:absolute;
+ 	left:32%;
+ 	top:28%;
+ 	width:35%;
+ 	height:25%;
+ 	background:#fff;
+ 	opacity:.8;
+ 	border: 1px solid black;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 2px;
+    outline-offset: 8px;
+ 	content:"";
+ 	padding:2% 2%;
+ }
+#banner-container h2 {
+	text-align:center;
+	font-size: 28px;
+	line-height: 26px;
+    letter-spacing: 4px;
+}
+#banner-container h3 {
+	text-align:center;
+	font-size: 15px;
+	line-height: 26px;
+    letter-spacing: 4px;
+    color:#be9911;
+}
+#contact-container {
+	
+}
+.leftside-contact {
+	width:50%;
+	float:left;
+	background:#f8f9f9;
+	margin-left:5%;
+	padding-top:30px;
+	border-radius:3px;
+	padding-right:10px;
+	position: relative;
+	margin-bottom:40px;
+}
+.rightside-contact {
+	width:20%;
+	float:left;
+	margin-right:5%;
+	padding:20px;
+	margin-left:10px;
+}
+.rightside-contact h2 {
+	display: inline-block;
+	margin-top:0;
+	padding-top:0;
+}
+.rightside-contact img {
+	width:400px;
+	height:300px;
+}
+.introduction {
+	color:white;
+	font-size:20px;
+	background: #15b27e;
+	text-align:center;
+	border-radius:8px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 15px 20px;
+	font-style: italic;
+}
+.clear {
+	clear:both;
+	margin-top:50px;
+}
+
+#contact-form {
+	border:none;
+}
+#contact-form p {
+	display:block;
+	clear:both;
+}
+#contact-form  ul {
+	margin:0;
+}
+#contact-form label {
+	font-weight: bold;
+	font-style: :italic;
+	color:#474a51;
+	width:20%;
+	float:left;
+	padding-top:32px;
+	text-align:right;
+}
+#contact-form ul li {
+	list-style: :none;
+	display:block;
+}
+.leftside-contact #contact-button {
+	float:right;
+}
+button {
+	padding: 15px 30px;
+	font-style: italic;
+	background: #15b27e;
+	text-align:center;
+	border-radius:8px;
+	margin-left:20px;
+	color:#fff;
+	font-weight:bold;
+}
+button:hover {
+	cursor:pointer;
+}
+input{
+	width:65%;
+	float:left;
+	height:25px;
+	padding:10px;
+	border:1px solid #e5e5e5;
+	margin:20px 5px 20px 10px;
+}
+
+textarea {
+	width:63%;
+	float:left;
+	height:80px;
+	padding:15px;
+	padding-right:20px;
+	border:1px solid #e5e5e5;
+	margin:20px 0px 20px 10px;
+}
+select {
+	float:left;
+	height:50px;
+	border:1px solid #e5e5e5;
+	margin:20px 5px 20px 10px;
+}
+#messagelabel {
+	margin-top:20px;
+	width:20%;
+	clear:left;
+}
+.contact-error {
+	text-align:center;
+	font-style: italic;
+}
+.servicesList {
+	width:30%;
+	float: left;
+	list-style: :none;
+	display: block;
+	background: #f5f6f7;
+	margin-left:20px;
+	margin-bottom:40px;
+}
+.servicesImage {
+	margin-left:25%;
+	margin-top:20px;
+}
+.servicesTitle {
+	text-align:center;
+	font-size:20px;
+	color:#15b27e;
+}
+.servicesDescription {
+	text-align:center;
+	font-size:16px;
+	line-height: 1.8em;
+}
+footer {
+	background:#33485F;
+	width:100%;
+	height:150px;
+}
+footer div {
+	margin-left:30%;
+	margin-right:auto;
+	width:60%;
+	padding-top:50px;
+}
+footer div p {
+	color:#fff;
+	clear:left;
+	font-size:13px;
+	margin-top:30px;
+	letter-spacing: 1px;
+}
+footer nav ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+footer nav ul li {
+	float:left;
+	padding-left:50px;
+}
+footer nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+}
